@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Playfair+Display&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header 1*/
+.head1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #27ae60;
+    padding: 20px;
+    
+}
+
+.head1 p{
+    border: solid white 2px;
+    border-radius: 30px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: #fbc531;
+    margin-right: 50px;
+    font-size: 20px;
+
+}
+
+.head1 p:visited{
+    background-color: #fbc531;
+}
+.head1 p:hover{
+    background-color: red;
+}
+
+nav ul {
+    margin-left: 40px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'monospace';
+    font-size: 20px;
+}
+
+nav ul li a{
+    flex-direction: ;
+    text-decoration: none;
+}
+.head1 ul li a:visited{
+    color: black;
+}
+.head1 nav ul li a:hover{
+    color: #fbc531;
+}
+/* fin header*/
+
+/** HEADER 2*/
+.head2 {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+    border-bottom: solid rgb(243, 238, 238) 0.2px;
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+
+.head2 a img{
+    height: 80px;
+    width: 80;
+    margin-right: 50px;
+}
+
+.head2 h1 a{
+    font-size: 50px;
+    text-decoration: none;
+    }
+.nav2 ul li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+/** HEADER 2*/
+
+
+
+/** première division*/
+.d1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    border-bottom: solid rgb(162, 159, 159) 0.2px;
+    margin-bottom: 30px;
+}
+
+/** cardl*/
+.d1 .cardl{
+    padding-top: 100px;
+    text-align: center;
+    height: 500px;
+    width: 600px;
+    margin-left: 50px;
+    background-color: #fbc531;
+    border-radius: 30px;
+    border: solid rgb(138, 132, 132) 0.5px; 
+}
+
+.d1 .cardl:visited{
+    background-color: #fbc531;
+
+}
+.d1 .cardl:hover{
+    background-color: black;
+    color: white;
+}
+
+.d1 .cardl h1{
+    font-size: 50px;
+}
+
+
+.d1 .cardl p{
+    font-size: 25px;
+}
+
+.d1 .cardl button{
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: 'fantasy';
+}
+
+.d1 .cardl button:visited{
+    background-color: white;
+    color: black;
+    opacity: 100%;
+}
+
+.d1 .cardl button:hover{
+    background-color: black;
+    color: rgb(201, 15, 15);
+    opacity: 30px;
+}
+
+/** card*/
+
+
+.d1 .cardr{
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+
+.d1 .cardr img{
+    height: 500px;
+    width: 700px;
+}
+
+
+
+/** fin première division*/
+
+
+/* début deuxième division*/
+.d2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: black;
+    color: azure;
+}
+
+.d2 .gauche{
+    padding-top: 100px;
+    text-align: center;
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+    border-radius: 30px;
+    overflow: scroll;
+
+    
+}
+
+.d2 .gauche h1{
+    font-size: 60px;
+    text-align: justify;
+}
+
+.d2 .gauche p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+
+
+.d2 .droit img{
+    height: 500px;
+    width: 700px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+
+
+/* troisième division*/
+.d3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #27ae60;
+}
+
+
+.formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: black 10px ;
+}
+
+.formulaire .form{
+    height: 1050px;
+    width: 650px;
+    text-align: left;
+    justify-content: center;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+.formulaire .form:hover{
+    box-shadow: 3px 3px 0px 0px rgb(77, 74, 74);
+}
+
+
+
+/* input*/
+.formulaire .form input{
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulaire .form input:hover{
+    box-shadow: 2px 2px 0px 0px rgb(77, 74, 74);
+}
+
+/*label*/
+.formulaire .form label{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.formulaire .form h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    border-bottom: solid 5px;
+    background-color: aliceblue;
+}
+
+
+.formulaire .form input[type="submit"]{
+    border-radius: 10p;
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+}
+
+.formulaire .form input[type="submit"]:hover{
+    background-color: #fbc531;
+}
+
+@media screen and (min-width: 1499px){
+
+}
